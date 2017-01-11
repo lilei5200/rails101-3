@@ -52,7 +52,7 @@ class GroupsController < ApplicationController
           current_user.join!(@group)
           flash[:notice] = "加入本讨论版成功！"
         else
-          flash[:warning] = “你已经是本讨论版成员了！”
+          flash[:warning] = "你已经是本讨论版成员了！"
         end
 
         redirect_to group_path(@group)

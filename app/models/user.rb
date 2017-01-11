@@ -20,6 +20,4 @@ end
    def quit!(group)
      participated_groups.delete(group)
    end
-
-   
 end
